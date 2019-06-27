@@ -135,6 +135,10 @@
 		}
 	}; 
 
+	if ( w.width() > 769 ) {
+		document.getElementById("fh5co-logo").style.width = "0px";
+	}
+
 	// Document on load.
 	$(function(){
 		mainMenu();
@@ -144,6 +148,8 @@
 		contentWayPoint();
 		stickyBanner();
 	});
+
+
 
 
 }());
